@@ -1,107 +1,153 @@
+/* Global styles */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: white;
-  color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 50px;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 500;
-}
-
-header h2 {
-  margin: 10px 0 0 0;
-  font-size: 24px;
-  font-weight: 500;
-  color: #999;
-}
-
+/* Navigation menu */
 nav {
-  background-color: white;
+  background-color: #333;
+  color: #fff;
   display: flex;
-  justify-content: center;
-  border-bottom: 1px solid #e6e6e6;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav li {
-  margin: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 nav a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  display: block;
-  padding: 10px;
-  transition: all 0.3s;
+  font-size: 16px;
+  margin: 0 10px;
 }
 
 nav a:hover {
-  color: #0070c9;
+  color: #ccc;
 }
 
-main {
+/* Section containers */
+.container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-section {
+/* Home section */
+#home {
+  background-color: #eee;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 32px;
   margin: 20px 0;
 }
 
-section h3 {
-  font-size: 32px;
-  margin: 0 0 20px 0;
-  font-weight: 500;
-}
-
-section h4 {
-  font-size: 28px;
-  margin: 0 0 10px 0;
-  font-weight: 500;
-}
-
-section p {
-  font-size: 16px;
+#home p {
+  font-size: 18px;
   line-height: 1.5;
-  margin: 0 0 20px 0;
 }
 
-section ul {
+/* About section */
+#about {
+  background-color: #ddd;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Projects section */
+#projects {
+  background-color: #ccc;
+  text-align: left;
+}
+
+#projects h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#projects ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
+#projects li {
+  font-size: 18px;
+  margin: 10px 0;
 }
 
-footer p {
-  margin: 0;
-  font-size: 14px;
+/* Skills section */
+#skills {
+  background-color: #bbb;
+  text-align: left;
 }
+
+#skills h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#skills li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Contact section */
+#contact {
+  background-color: #aaa;
+  text-align: left;
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact label,
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  font-size: 18px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Contact section (continued) */
+#contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #444;
+}
+
