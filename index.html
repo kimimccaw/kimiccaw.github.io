@@ -5,49 +5,72 @@
   <title>My Personal Web Portfolio</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-<body>
-  <header>
-    <h1>Hakimi Azman</h1>
-    <h2>Web Developer</h2>
-  </header>
-  <nav>
+<main>
+<!-- Navigation menu -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- Home section -->
+<section id="home">
+  <div class="container">
+    <h1>Welcome to my personal web portfolio</h1>
+    <p>Here you can find information about my background, projects, and skills.</p>
+  </div>
+</section>
+
+<!-- About section -->
+<section id="about">
+  <div class="container">
+    <h2>About me</h2>
+    <p>I am a web developer with a passion for creating intuitive and user-friendly websites and applications. I have a strong foundation in HTML, CSS, and JavaScript, and I am always looking to learn and grow my skills.</p>
+  </div>
+</section>
+
+<!-- Projects section -->
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li>Project 1</li>
+      <li>Project 2</li>
+      <li>Project 3</li>
     </ul>
-  </nav>
-  <main>
-    <section id="about">
-      <h3>About Me</h3>
-      <p>I am a web developer with a passion for creating beautiful and functional websites. I have a degree in Computer Science and have been working in the industry for the past 5 years. My skills include HTML, CSS, JavaScript, PHP, and MySQL.</p>
-      <p>I am always looking for new challenges and opportunities to learn and grow as a developer. In my free time, I enjoy tinkering with new technologies and staying up to date with the latest trends in web development.</p>
-    </section>
-    <section id="projects">
-      <h3>Projects</h3>
-      <h4>Web App for XYZ Company</h4>
-      <p>I developed a web app for XYZ Company using HTML, CSS, JavaScript, and PHP. The app allows users to track their orders and manage their accounts. I also implemented a responsive design to ensure that the app works on all devices.</p>
-      <h4>E-commerce Website for ABC Company</h4>
-      <p>I built an e-commerce website for ABC Company using HTML, CSS, JavaScript, PHP, and MySQL. The website allows users to browse and purchase products, and includes features such as a shopping cart and payment gateway integration.</p>
-    </section>
-    <section id="experience">
-      <h3>Experience</h3>
-      <h4>Web Developer, XYZ Company</h4>
-      <p>June 2018 - Present</p>
-      <ul>
-        <li>Developed and maintained company websites using HTML, CSS, and PHP</li>
-        <li>Implemented new features and functionality using JavaScript and MySQL</li>
-      </ul>
-      <h4>Web Developer Intern, ABC Company</h4>
-      <p>May 2017 - August 2017</p>
-      <ul>
-        <li>Worked on various web development projects under the guidance of senior developers</li>
-        <li>Gained practical experience in HTML, CSS, and JavaScript</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h3>Contact</h3>
-      <p>Email: john.doe@gmail.com</p>
-      <p>Phone: 555-555-5555</p>
-      <p>Location: San Francisco, CA
+  </div>
+</section>
+
+<!-- Skills section -->
+<section id="skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive design</li>
+      <li>User experience design</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact section -->
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>You can reach me at <a href="mailto:email@example.com">email@example.com</a> or by filling out the form below:</p>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea><br>
+      <input type="submit" value="Send">
+    </form> 
+  </div>
+</section>
+</main>
