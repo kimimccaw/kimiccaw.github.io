@@ -56,7 +56,6 @@ nav a:hover {
   margin: 5% 10%;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: justify;
   border-radius: 25px;
   background: #ccc;
   padding: 20px;
@@ -67,11 +66,13 @@ nav a:hover {
 #about h2 {
   font-size: 24px;
   margin: 20px 0;
+  text-align: center;
 }
 
 #about p {
   font-size: 18px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 /* Projects section */
