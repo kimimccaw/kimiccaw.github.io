@@ -60,7 +60,7 @@ nav a:hover {
   background: #ccc;
   padding: 20px;
   width: auto;
-  height: 150px;
+  height: auto;
 }
 
 #about h2 {
