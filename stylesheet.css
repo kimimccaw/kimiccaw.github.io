@@ -30,17 +30,18 @@ nav a:hover {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  border-radius: 25px;
-  background: #73AD21;
   padding: 20px;
-  width: 200px;
-  height: 150px;
 }
 
 /* Home section */
 #home {
   background-color: #eee;
   text-align: center;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
 }
 
 #home h1 {
