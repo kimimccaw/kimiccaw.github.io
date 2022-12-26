@@ -53,6 +53,7 @@ nav a:hover {
 #about {
   background-color: #ddd;
   display: flex;
+  margin: 20%;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
