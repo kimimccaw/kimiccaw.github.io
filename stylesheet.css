@@ -52,11 +52,12 @@ nav a:hover {
 /* About section */
 #about {
   background-color: #ddd;
+  margin: auto;
   text-align: center;
   border-radius: 25px;
-  background: #73AD21;
+  background: #ccc;
   padding: 20px;
-  width: 200px;
+  width: 50%;
   height: 150px;
 }
 
