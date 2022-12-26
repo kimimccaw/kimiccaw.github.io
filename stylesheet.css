@@ -65,9 +65,14 @@ nav a:hover {
 
 #about div :hover{
   box-shadow:
-  0 0 60px 30px #fff,  /* inner white */
-  0 0 100px 60px #f0f, /* middle magenta */
-  0 0 140px 90px #0ff; /* outer cyan */
+  inset 0 0 50px #fff,      /* inner white */
+  inset 20px 0 80px #f0f,   /* inner left magenta short */
+  inset -20px 0 80px #0ff,  /* inner right cyan short */
+  inset 20px 0 300px #f0f,  /* inner left magenta broad */
+  inset -20px 0 300px #0ff, /* inner right cyan broad */
+  0 0 50px #fff,            /* outer white */
+  -10px 0 80px #f0f,        /* outer left magenta */
+  10px 0 80px #0ff;         /* outer right cyan */
 }
 
 #about h2 {
